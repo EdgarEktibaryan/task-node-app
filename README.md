@@ -83,11 +83,9 @@ Checked the Argo Helm charts and the application itself
 
 --------------------------------------------------------------------------------------------------------------------------
 And finally we can see the result by going to Public IP that was assigned to service with type LoadBalancer
+APP is accessible: http://135.18.195.202:80
 --------------------------------------------------------------------------------------------------------------------------
-<img width="376" alt="Screenshot 2025-04-07 at 09 24 32" src="https://github.com/user-attachments/assets/89f0fd81-6b54-40b6-bee0-8a46493700ea" />
-
-
-
+<img width="505" alt="Screenshot 2025-04-07 at 13 26 24" src="https://github.com/user-attachments/assets/61d7e005-787d-46fa-836e-a56f0108c97a" />
 
 
 
