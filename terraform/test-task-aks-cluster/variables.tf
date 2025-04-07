@@ -33,27 +33,6 @@ variable "azure_tenant_id" {
   type        = string
 }
 
-### VNET
-
-# # Public IP
-
-# variable "domain_name_label" {
-#   description = "domain name label to use"
-#   type        = string
-#   default     = "test-task-aks"
-# }
-
-# variable "tags_pubip" {
-#   description = "Tags to add to lb"
-#   type        = map(string)
-#   default = {
-#     Environment              = "Demo",
-#     IAC                      = "Terraform",
-#     "k8s-azure-cluster-name" = "kubernetes",
-#     "k8s-azure-service"      = "nginx/nginx-ingress-nginx-controller"
-#   }
-# }
-
 ### AKS
 
 variable "identity_type" {
