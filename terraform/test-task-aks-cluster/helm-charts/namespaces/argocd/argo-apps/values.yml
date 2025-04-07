@@ -1,0 +1,21 @@
+
+applications:
+  - name: test-task-application
+    namespace: argocd
+    project: default
+    source:
+      repoURL: https://github.com/EdgarEktibaryan/test-task.git
+      targetRevision: refs/heads/main
+      path: env/argo-app
+      directory:
+        recurse: false
+    destination:
+      server: https://kubernetes.default.svc
+      namespace: default
+    syncPolicy:
+      automated:
+        prune: false
+        selfHeal: true
+    info:
+    - name: url
+      value: https://github.com/EdgarEktibaryan/test-task.git
