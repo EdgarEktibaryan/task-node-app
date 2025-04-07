@@ -14,7 +14,7 @@ spec:
       selfHeal: true
   source:
     path: helm-chart/node-app
-    repoURL: https://github.com/EdgarEktibaryan/test-task.git
+    repoURL: https://github.com/EdgarEktibaryan/task-node-app.git
     targetRevision: HEAD
     helm:
       releaseName: node-app

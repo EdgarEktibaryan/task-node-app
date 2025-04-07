@@ -1,10 +1,10 @@
 
 applications:
-  - name: test-task-application
+  - name: task-node-application
     namespace: argocd
     project: default
     source:
-      repoURL: https://github.com/EdgarEktibaryan/test-task.git
+      repoURL: https://github.com/EdgarEktibaryan/task-node-app.git
       targetRevision: refs/heads/main
       path: env/argo-app
       directory:
@@ -18,4 +18,4 @@ applications:
         selfHeal: true
     info:
     - name: url
-      value: https://github.com/EdgarEktibaryan/test-task.git
+      value: https://github.com/EdgarEktibaryan/task-node-app.git
